@@ -1,0 +1,74 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #BA1200;
+}
+
+h1 {
+  margin: 10px;
+  font-family: 'Staatliches', cursive;
+  /* text-shadow: 2px 0 #232931;*/
+  font-size: 8rem;
+  color: #031927;
+}
+
+p {
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Staatliches', cursive;
+}
+
+img {
+  width: 80%;
+  border: solid 10px #031927;
+  border-radius: 15%;
+}
+
+button{
+  margin: 2%;
+  background-color: #031927;
+  border: none;
+  color: #BA1200;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+button:hover{
+  color: #031927;
+  background-color: #BA1200;
+  border: solid 3px #031927;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 2%;
+  color: rgb(162, 199, 231);
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-weight: bolder;
+  font-size: 1.5rem;
+
+}
+
+footer a{
+  color: rgb(162, 199, 231);
+  text-decoration: underline;
+}
+
+footer a:hover{
+  color: #00A6A6;
+}
